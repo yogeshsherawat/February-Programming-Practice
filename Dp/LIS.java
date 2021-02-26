@@ -17,7 +17,7 @@ public class LIS {
     }
     
     public static void main(String args[]) {
-        int arr[] = { 10, 22, 9,10,11,12,13,15,16,17, 2, 234 };
+        int arr[] = { 10, 22, 9,33,21,50,41,60,80 };
         int k2 = lis_dp(arr, arr.length);
         System.out.println(k2);
     }
