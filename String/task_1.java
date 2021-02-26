@@ -7,6 +7,7 @@ public class task_1 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
+        sc.close();
         if (s.length() < 8) {
             System.out.println("Invalid");
             return;
@@ -55,6 +56,7 @@ public class task_1 {
             return;
         }
         System.out.println("Valid");
+
 
 
     }
